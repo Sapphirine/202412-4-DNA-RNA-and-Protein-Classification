@@ -23,13 +23,17 @@ project-directory/
    ```bash
    cd backend
    ```
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-2. Run the backend server using Python:
+3. Run the backend server using Python:
    ```bash
    python app.py
    ```
 
-   The backend will start listening for requests at `http://127.0.0.1:5001` (default Flask host and port).
+   The backend will start listening for requests at `http://127.0.0.1:5001`.
 
 ---
 
@@ -55,7 +59,7 @@ project-directory/
    npm run dev
    ```
 
-   The frontend will run locally, typically accessible at `http://localhost:8013` (or another port as indicated).
+   The frontend will run locally, typically accessible at `http://localhost:8080`.
 
    The frontend is styled using the open-source template [smpe-admin-web](https://github.com/sanyueruanjian/smpe-admin-web.git) for an enhanced user experience.
 
