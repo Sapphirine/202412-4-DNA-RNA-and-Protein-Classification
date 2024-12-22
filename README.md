@@ -70,8 +70,12 @@ project-directory/
 Once both the backend and frontend services are running:
 
 1. Open the frontend application in your web browser.
-2. Input biological sequence details such as DNA, RNA, or protein data.
-3. Submit the data to classify the macromolecule type using the models deployed on the backend.
+2. Click **Function** -> **Classification**
+3. Input input the structureId, chainId, sequence, residueCount of the macromolecule.
+4. Choose the model you want.
+![image](https://github.com/user-attachments/assets/ece93dd7-728f-4e55-b018-c901918db2a5)
+6. click the button **Classify** to get the classification result.
+![image](https://github.com/user-attachments/assets/6ce6a8d5-8718-4622-8031-e3135ab0bf9a)
 
 ---
 
